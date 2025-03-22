@@ -1,3 +1,4 @@
+//Objetos
 const items = [
     {
         id: 0,
@@ -18,6 +19,7 @@ const items = [
         quantidade: 0   
     },
 ]
+
 
 inicializarLoja = () => {
     var containerProduto = document.getElementById('produto');
