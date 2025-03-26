@@ -20,7 +20,7 @@ const items = [
     },
 ]
 
-
+//funcao para inciar loja
 inicializarLoja = () => {
     var containerProduto = document.getElementById('produto');
     items.map((val)=>{
@@ -40,7 +40,7 @@ inicializarLoja = () => {
 
 inicializarLoja();
 
-
+//funcao para atualizar carrinho 
 atualizarCarrinho = () =>{
     var containerCarrinho = document.getElementById('carrinho');
     containerCarrinho.innerHTML = "";
@@ -54,7 +54,7 @@ atualizarCarrinho = () =>{
     })
 
 }
-
+// selecionando documentos
 var links = document.getElementsByTagName('a');
 
 for(var i = 0; i < links.length; i++){
